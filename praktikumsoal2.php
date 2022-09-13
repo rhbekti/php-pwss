@@ -10,7 +10,7 @@
 
     // contoh penggunaan .
     $a = "Yogyakarta";
-    $a = $a."Kotaku";
+    $a = $a." Kotaku";
     echo "$a <br/>";
 
     // contoh penggunaan .=
