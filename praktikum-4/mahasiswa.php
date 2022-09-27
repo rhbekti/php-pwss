@@ -4,7 +4,7 @@
         $array_mahasiswa = $_POST['mahasiswa'];
 
         for ($a=1; $a <= 9; $a++) {
-            echo "<li?>".$array_mahasiswa[$a]."</li>";
+            echo "<li>".$array_mahasiswa[$a]."</li>";
         }
     ?>
 </ol>

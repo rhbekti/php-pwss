@@ -11,7 +11,7 @@
 ?>
 <h2>Jurusan Anda</h2>
 <pre>
-    Nama            : <?=$nama;?>
-    Kode Jurusan    : <?=$kd;?>
+    Nama            : <?=$nama;?> <br>
+    Kode Jurusan    : <?=$kd;?> <br>
     Jurusan         : <?=$arr_jurusan[$kd];?>
 </pre>

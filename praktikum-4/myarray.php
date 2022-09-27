@@ -8,6 +8,7 @@
     for($i = 0;$i <= 3;$i++){
         echo "Array ke $i : $myArray[$i] <br>";
     }
+    echo "<br><br><br>";
     // praktik 2
     for($i = 0;$i <= 3;$i++){
         @print "Array ke $i : $myArray[$i] <br>";
