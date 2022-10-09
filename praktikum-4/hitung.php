@@ -11,7 +11,7 @@
         echo "Jumlah        : ".$_POST['jumlah_barang_'.$i]." <br>";
         echo "Harga Barang  : ".$_POST['harga_barang_'.$i]." <br>";
         $total_barang = $_POST['jumlah_barang_'.$i] * $_POST['harga_barang_'.$i];
-        echo "Total  : ".$total_barang." <br> <pre> <hr>";
+        echo "Total         : ".$total_barang." <br> <pre> <hr>";
         $total_seluruh += $total_barang;
         $no++;
     }

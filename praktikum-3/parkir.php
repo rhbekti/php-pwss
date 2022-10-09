@@ -90,7 +90,7 @@ if (isset($_POST['submit'])) {
                     <div>
                         <p>Jenis : <?=$jenis;?></p>
                         <p>Lama : <?=$jam;?></p>
-                        <p>Biaya : <?=$biaya;?></p>
+                        <p>Biaya : <?=number_format($biaya);?></p>
                     </div>
                 </div>
             </div>
