@@ -30,5 +30,4 @@ print_r($a);
 menghapus nilai elemen pertama dari data array
 */
 array_shift($a);
-echo "<br>";
 print_r($a);
