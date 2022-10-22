@@ -2,7 +2,7 @@
     function nilai_pertama($x){
         $x += 20;
     }
-    function nilai_kedua(&$x){
+    function nilai_kedua($x){
         $x += 200;
     }
     $nilai_awal = 100;
