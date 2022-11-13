@@ -1,9 +1,9 @@
 <?php
 error_reporting(E_ALL ^ E_DEPRECATED);
-$host = "127.0.0.1";
+$host = "localhost";
 $user = "root";
-$pass = "";
-$dbName = "sewabuku";
+$pass = "root";
+$dbName = "toko_barang";
 
 $kon = mysqli_connect($host,$user,$pass);
 if(!$kon){
@@ -22,15 +22,6 @@ if(!$hasil){
         }
     }
 }
-
-// $sqlTabelBuku = "CREATE TABLE IF NOT EXISTS buku (
-//     idbuku INT(11) PRIMARY KEY AUTO_INCREMENT,
-//     kode VARCHAR(10),
-//     judul VARCHAR(40),
-//     pengarang VARCHAR(40),
-//     penerbit VARCHAR(40),
-//     stok INT(11))";
-// mysqli_query($kon,$sqlTabelBuku) or die("Gagal Buat Koneksi Tabel Buku");
 
 // untuk database toko_ol
 $sqlTabelBarang = "CREATE TABLE IF NOT EXISTS barang (
