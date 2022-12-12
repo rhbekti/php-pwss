@@ -36,7 +36,7 @@ mysqli_query($kon,$sqlTabelBarang) or die("Gagal Buat Koneksi Tabel Barang");
 $sqlTabelHjual = "CREATE TABLE IF NOT EXISTS hjual (
                 idhjual INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
                 tanggal DATE NOT NULL,
-                namascust VARCHAR(50) NOT NULL DEFAULT '',
+                namacust VARCHAR(50) NOT NULL DEFAULT '',
                 email VARCHAR(50) NOT NULL DEFAULT '',
                 notelp VARCHAR(20) NOT NULL DEFAULT '')";
 
@@ -51,4 +51,4 @@ $sqlTabelDjual = "CREATE TABLE IF NOT EXISTS djual (
 
 mysqli_query($kon,$sqlTabelDjual) or die("Gagal Buat Koneksi Tabel Djual");
 
-echo "Tabel Siap <hr>";
+// echo "Tabel Siap <hr>";
