@@ -55,7 +55,7 @@ $akses = isset($_SESSION['akses']) ? $_SESSION['akses'] : 'pengunjung';
                         <li><a style="<?= $tampil; ?>" href="buku_keranjang.php">Keranjang Peminjaman</a></li>
                         <li><a style="<?= $tampil; ?>" href="buku_pinjam.php">Transaksi Peminjaman</a></li>
                         <li><a style="<?= $tampil_login; ?>" href="login_form.php">Login</a></li>
-                        <li><?php include "logout.php"; ?></li>
+                        <li><a style="<?= $tampil_logout; ?>" href="#"><?php include "logout.php"; ?></a></li>
                     </ul>
                 </div>
                 <!-- end menu -->
